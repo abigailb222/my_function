@@ -98,9 +98,25 @@ students = {"10001578":"Jonathan",
             "10002213":"Rahid",
             "10003207":"Imran"}
 
-def studentlookup(students,name):
+'''def studentlookup(students,name):
     for x in students:
         if students[x] == name:
             return x
     return "Invalid student name"
-print studentlookup(students,"Abigail")
+print studentlookup(students,"Abigail")'''
+
+'''v = []
+i = int(raw_input())
+while (i != 0):
+    v.append(i%2)
+    i=i/2
+print v'''
+
+def fact(n):
+    if n==1:
+        print n
+        return n
+    else:
+        print n
+        return n+fact(n-1)
+print fact(10)
